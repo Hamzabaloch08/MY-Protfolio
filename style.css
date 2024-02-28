@@ -22,7 +22,7 @@ nav {
 }
 
 nav>img:first-child {
-    width: 250px;
+    width: 260px;
     height: 100px;
     object-fit: cover;
     cursor: pointer;
@@ -43,14 +43,14 @@ nav>img:first-child:hover {
     cursor: pointer;
     text-transform: capitalize;
     transition: all 0.2s linear;
-}
-
-.nav-item:active {
-    color: #ff0000;
+    font-weight: 600;
+    opacity: 0.8;
 }
 
 .nav-item:hover {
     transform: translateY(-5px);
+    color: #ff0000;
+    opacity: 1;
 }
 
 .first-section {
@@ -58,11 +58,11 @@ nav>img:first-child:hover {
     justify-content: center;
     text-align: justify;
     padding: 60px 0px;
-    gap: 50px;
+    gap: 100px;
 }
 
 .about-me {
-    width: 40%;
+    width: 45%;
 }
 
 .about-me>h1 {
@@ -72,7 +72,9 @@ nav>img:first-child:hover {
 }
 
 .about-me>h1>span {
-    color: #ff0606;
+    background: linear-gradient(to top left, rgb(32, 32, 32), rgb(243, 9, 9), red);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .about-me>p{
@@ -80,9 +82,17 @@ nav>img:first-child:hover {
     font-size: 1rem;
 }
 
+.coding-img{
+    overflow: hidden;
+    width: 28%;
+}
 
 .coding-img>img {
-    width: 80%;
-    border-radius: 10px;
-    margin-right: -200px;
+    width: 100%;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.coding-img>img:hover{
+    transform: scale(1.1);
 }
