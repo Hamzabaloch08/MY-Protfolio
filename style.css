@@ -2,14 +2,23 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     background-color: black;
-        background-image: linear-gradient(to top left, red, rgb(216, 27, 27), rgb(43, 4, 4), black);
+    background-image: linear-gradient(to top left, rgb(224, 11, 11), rgb(180, 27, 27), rgb(88, 21, 21), rgb(20, 0, 0), rgb(0, 0, 0));
     font-family: sans-serif;
-    background-color: #000;
     color: #fff;
+
+}
+
+/* navbar */
+
+header {
+    position: sticky;
+    top: 0;
+    transition: all 0.3s linear;
 }
 
 nav {
@@ -19,6 +28,7 @@ nav {
     height: 5rem;
     border-bottom: 1px solid #e9e9e9;
     padding: 0 20px;
+    backdrop-filter: blur(15px);
 }
 
 nav>img:first-child {
@@ -45,6 +55,8 @@ nav>img:first-child:hover {
     transition: all 0.2s linear;
     font-weight: 600;
     opacity: 0.8;
+    color: #fff;
+    text-decoration: none;
 }
 
 .nav-item:hover {
@@ -53,36 +65,33 @@ nav>img:first-child:hover {
     opacity: 1;
 }
 
+/* \end of navbar */
+
+/* main */
 .first-section {
     display: flex;
     justify-content: center;
     text-align: justify;
-    padding: 60px 0px;
+    padding: 150px 0px;
     gap: 100px;
 }
 
-.about-me {
+.home {
     width: 45%;
 }
 
-.about-me>h1 {
-    font-size: 2.5rem;
-    text-transform: capitalize;
-    font-weight: 900;
+.home>h1 {
+    font-size: 3.5rem;
+    line-height: 80px;
+    font-weight: 400;
 }
 
-.about-me>h1>span {
-    background: linear-gradient(to top left, rgb(32, 32, 32), rgb(243, 9, 9), red);
-    -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.about-me>p{
+.home>p {
     margin-top: 10px;
     font-size: 1rem;
 }
 
-.coding-img{
+.coding-img {
     overflow: hidden;
     width: 28%;
 }
@@ -91,8 +100,32 @@ nav>img:first-child:hover {
     width: 100%;
     transition: all 0.3s linear;
     cursor: pointer;
+    border-radius: 200px;
 }
 
-.coding-img>img:hover{
-    transform: scale(1.1);
+/* end of main section */
+/* about */
+
+.skills>h1:first-child {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 130px;
+}
+
+.prog-lang-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 60px;
+}
+
+.prog-lang-imgs>img {
+    width: 65px;
+    transition: all 0.3s linear;
+    margin-bottom: 200px;
+}
+
+.prog-lang-imgs>img:hover {
+    transform: scale(1.2);
 }
