@@ -1,109 +1,170 @@
-@media only screen and (max-width: 1024px){
-    .first-section {
-        padding: 40px 50px;
+@media only screen and (max-width: 1024px) {
+    .nav-item {
+        transform: translateY(-0px) !important;
     }
-    
-    .about-me {
-        padding: 0px 0px;
-        width: 100%;
-    }
-    
-    .about-me>h1 {
-        font-size: 2.1rem;
-        font-weight: 800;
-    }
-    
-    
-    .about-me>p{
-        margin-top: 10px;
-        font-size: 0.85rem;
-    }
-    
-    
+
     .coding-img>img {
-        width: 90%;
-        border-radius: 10px !important;
-        margin-right: -170px !important;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .prog-lang-imgs {
+        gap: 0px 30px;
+    }
+
+    .prog-lang-imgs>img {
+        width: 60px;
     }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
+    .nav-item {
+        transform: translateY(-0px) !important;
+    }
+
 
     .first-section {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
+        text-align: center;
+        padding: 60px 0px;
     }
 
-    .about-me {
-        text-align: center;
-        width: 100%;
+    .home {
+        width: 90%;
+        margin-top: -80px;
     }
-    
-    .about-me>p{
-        margin-top: 5px;
+
+    .home>h1 {
+        font-size: 4rem;
+    }
+
+    .home>p {
         font-size: 0.9rem;
     }
 
-    .coding-img>img {
-        width: 100%;
-        border-radius: 10px;
+    .coding-img {
+        width: 50%;
+    }
+
+    .skills>h1:first-child {
+        font-size: 3rem;
+    }
+
+    .prog-lang-imgs {
+        display: grid;
+        place-items: center;
+        grid-template-columns: auto auto auto auto;
+        gap: 50px 70px;
+    }
+
+    .prog-lang-imgs>img{
+        width: 50px;
     }
 }
 
 @media only screen and (max-width: 425px) {
-    nav{
+    nav {
         height: 4rem;
         padding: 0 0px;
     }
 
-    nav>img:first-child{
+    nav>img:first-child {
         width: 150px;
         height: 50px;
         object-fit: cover;
         transform: translateY(0px) !important;
     }
 
-    .nav-item{
+    .nav-item {
         padding: 0px 5px;
         font-size: 10px;
-        transform: translateY(0px) !important;
+        transform: translateY(-0px) !important;
     }
 
-    .nav-item:active{
-        color: #ff0000 !important;
-        transform: translateY(-5px) !important;
-    }
-    
-    .about-me {
-        text-align: center;
-        width: 100%;
-    }
-    .about-me>h1 {
-        font-size: 1.9rem;
+    .first-section {
+        padding: 50px 0px;
     }
 
-    .about-me>p{
-        font-size: 0.7rem;
+    .home {
+        width: 85%;
+        margin-top: -50px;
+    }
+
+    .home>h1 {
+        font-size: 2.7rem;
+        line-height: 40px;
+    }
+
+    .home>p {
+        font-size: 0.75rem;
+    }
+
+    .coding-img {
+        width: 60%;
+    }
+
+    .skills>h1:first-child {
+        font-size: 2rem;
+    }
+
+    .prog-lang-imgs {
+        gap: 30px 50px;
+        margin-top: -30px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .nav-item {
+        font-size: 10px;
+    }
+
+    .first-section {
+        padding: 70px 0px;
+    }
+
+    .home {
+        width: 90%;
+        margin-top: -80px;
+    }
+
+    .home>h1 {
+        font-size: 2.5rem;
+        line-height: 30px;
+    }
+
+    .home>p {
+        font-size: 0.6rem;
+    }
+
+    .coding-img {
+        width: 55%;
+    }
+
+    .skills>h1:first-child {
+        font-size: 2rem;
+    }
+
+    .prog-lang-imgs {
+        gap: 15px 40px;
+        margin-top: -30px;
+    }
+
+    .prog-lang-imgs>img{
+        width: 45px;
     }
 }
 
 @media only screen and (max-width: 320px) {
-
-    nav>img:first-child{
-        width: 120px;
-        height: 50px;
-    }
-
-    .nav-item{
-        font-size: 8px;
-    }
-
-    .about-me>h1 {
+ 
+    .skills>h1:first-child {
         font-size: 1.5rem;
     }
 
-    .about-me>p{
-        font-size: 0.5rem;
+    .prog-lang-imgs {
+        gap: 15px 25px;
     }
 }
