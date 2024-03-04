@@ -6,7 +6,7 @@
 }
 
 ::-webkit-scrollbar{
-    width: 5px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-track{
@@ -14,7 +14,7 @@
 }
 
 ::-webkit-scrollbar-thumb{
-    background-image: linear-gradient(rgb(255, 0, 0), black);
+    background-color: #000;
     border-radius: 10px;
 }
 
@@ -23,7 +23,6 @@ body {
     background-color: black;
     font-family: sans-serif;
     color: #fff;
-    cursor: url(./images/canva_.png),auto;
 }
 
 /* navbar */
@@ -179,3 +178,7 @@ nav>img:first-child:hover {
 .projects-container>a>img {
     width: 80%;
 }
+
+
+
+

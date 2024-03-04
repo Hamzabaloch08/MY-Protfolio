@@ -28,40 +28,60 @@
         flex-direction: column-reverse;
         align-items: center;
         text-align: center;
-        padding: 60px 0px;
+        padding-top: 60px;
     }
 
     .home {
-        width: 90%;
-        margin-top: -80px;
+        width: 50%;
+        margin-top: -30px;
     }
 
     .home>h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     .home>p {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
 
     .coding-img {
         width: 50%;
     }
 
-    .skills>h1:first-child {
-        font-size: 3rem;
+    .second-section{
+        padding: 100px 0px;
     }
-
+    
+    .skills>h1:first-child {
+        font-size: 2.5rem;
+    }
+    
     .prog-lang-imgs {
         display: grid;
         place-items: center;
         grid-template-columns: auto auto auto auto;
-        gap: 50px 70px;
+        gap: 30px 60px;
+        margin-top: 30px;
     }
-
+    
     .prog-lang-imgs>img{
         width: 50px;
     }
+    
+    .prog-lang-imgs>img:hover {
+        transform: scale(1);
+    }
+    
+    .about-me { 
+        margin-top: 25px;
+    }
+    
+    .about-me>span {
+        width: 75%;
+        line-height: 1.1;
+        font-size: 0.9rem;
+    }
+
 }
 
 @media only screen and (max-width: 425px) {
@@ -84,17 +104,17 @@
     }
 
     .first-section {
-        padding: 50px 0px;
+        padding-top: 40px;
     }
 
     .home {
         width: 85%;
-        margin-top: -50px;
+        margin-top: -30px;
     }
 
     .home>h1 {
-        font-size: 2.7rem;
-        line-height: 40px;
+        font-size: 2.5rem;
+        line-height: 35px;
     }
 
     .home>p {
@@ -105,13 +125,30 @@
         width: 60%;
     }
 
+    .second-section{
+        padding: 80px 0px;
+    }
+    
     .skills>h1:first-child {
         font-size: 2rem;
     }
-
+    
     .prog-lang-imgs {
-        gap: 30px 50px;
-        margin-top: -30px;
+        gap: 20px 30px;
+        margin-top: 15px;
+    }
+    
+    .prog-lang-imgs>img{
+        width: 40px;
+    }
+    
+    .about-me { 
+        margin-top: 20px;
+    }
+    
+    .about-me>span {
+        width: 85%;
+        font-size: 0.6rem;
     }
 
 }
