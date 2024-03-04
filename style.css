@@ -5,12 +5,25 @@
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: red;
+}
+
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(rgb(255, 0, 0), black);
+    border-radius: 10px;
+}
+
 body {
+    background-image: linear-gradient(to top left, rgb(10, 0, 0), rgb(20, 0, 0), rgb(80, 10, 2), rgb(168, 8, 0), rgb(224, 11, 11), rgb(224, 11, 11), rgb(168, 8, 0), rgb(80, 10, 2), rgb(20, 0, 0), rgb(0, 0, 0));
     background-color: black;
-    background-image: linear-gradient(to top left, rgb(224, 11, 11), rgb(180, 27, 27), rgb(88, 21, 21), rgb(20, 0, 0), rgb(0, 0, 0));
     font-family: sans-serif;
     color: #fff;
-
+    cursor: url(./images/canva_.png),auto;
 }
 
 /* navbar */
@@ -59,93 +72,110 @@ nav>img:first-child:hover {
     text-decoration: none;
 }
 
-    .nav-item:hover {
-        color: #ff0000;
-        transform: translateY(-5px);
-        opacity: 1;
-    }
+.nav-item:hover {
+    color: #ff0000;
+    transform: translateY(-5px);
+    opacity: 1;
+}
 
-    /* \end of navbar */
+/* \end of navbar */
 
-    /* home */
-    .first-section {
-        display: flex;
-        justify-content: center;
-        text-align: justify;
-        padding: 100px 0px;
-        gap: 100px;
-    }
+/* home */
+.first-section {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding-top: 120px;
+    gap: 0px 100px;
+}
 
-    .home {
-        width: 45%;
-    }
+.home {
+    width: 50%;
+    padding: 50px 0px;
+}
 
-    .home>h1 {
-        font-size: 3.5rem;
-        line-height: 80px;
-        font-weight: 400;
-    }
+.home>h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    cursor: pointer;
+}
 
-    .home>p {
-        margin-top: 10px;
-        font-size: 1rem;
-    }
+.home>p {
+    margin-top: 10px;
+    font-size: 1.7rem;
+    line-height: 1.3;
+    letter-spacing: 1px;
+}
 
-    .coding-img {
-        width: 28%;
-    }
+.coding-img {
+    width: 28%;
+}
 
-    .coding-img>img {
-        width: 100%;
-        cursor: pointer;
-        border-radius: 200px;
-    }
+.coding-img>img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 200px;
+}
 
-    /* end of home section */
-    /* about */
+/* end of home section */
+/* about */
 
-    .skills>h1:first-child {
-        text-align: center;
-        font-size: 2.5rem;
-        font-weight: 500;
-        text-transform: uppercase;
-        padding-top: 180px;
-        padding-bottom: 150px;
-    }
+.second-section{
+    padding: 120px 0px;
+}
 
-    .prog-lang-imgs {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 0px 60px;
-    }
+.skills>h1:first-child {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
 
-    .prog-lang-imgs>img {
-        width: 65px;
-        transition: all 0.3s linear;
-    }
+.prog-lang-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 60px;
+    margin-top: 100px;
+}
 
-    .prog-lang-imgs>img:hover {
-        transform: scale(1.2);
-    }
+.prog-lang-imgs>img {
+    width: 65px;
+    transition: all 0.3s linear;
+}
 
-    /* skills section end */
+.prog-lang-imgs>img:hover {
+    transform: scale(1.2);
+}
 
-    .third-section{
-        text-align: center;
-        padding: 150px 0px;
-    }
+.about-me {
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    margin-top: 50px;
+}
 
-    .third-section>h1{
-        font-size: 2.5rem;
-        font-weight: 500;
-        text-transform: uppercase;
-    }
+.about-me>span {
+    width: 75%;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+}
 
-    .projects-container{
-        
-        }
+/* skills section end */
 
-    .projects-container>a>img{
-        width: 80%;
-    }
+.third-section {
+    text-align: center;
+    padding: 150px 0px;
+}
+
+.third-section>h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.projects-container {}
+
+.projects-container>a>img {
+    width: 80%;
+}
