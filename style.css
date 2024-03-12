@@ -260,3 +260,8 @@ nav>img:first-child:hover {
 .periodic>p:nth-child(2) {
     font-size: 1.5rem;
 }
+
+.login-form>h2:first-child{
+    font-size: 2.2rem;
+    color: rgb(0, 162, 255);
+}
