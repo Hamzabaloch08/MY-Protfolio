@@ -190,6 +190,15 @@
     .periodic>p:nth-child(2) {
         font-size: 0.6rem;
     }
+    
+    .login-form>h2:first-child{
+        font-size: 1.2rem;
+        color: rgb(0, 162, 255);
+    }
+
+    .login-form>p:nth-child(2){
+        font-size: 0.7rem;
+    }
 
 }
 
@@ -328,6 +337,15 @@
         font-size: 0.8rem;
     }
 
+        
+    .login-form>h2:first-child{
+        font-size: 1.5rem;
+    }
+
+    .login-form>p:nth-child(2){
+        font-size: 0.6rem;
+    }
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -384,6 +402,14 @@
         font-size: 0.5rem;
     }
 
+    .login-form>h2:first-child{
+        font-size: 1.5rem;
+    }
+
+    .login-form>p:nth-child(2){
+        font-size: 0.5rem;
+    }
+
 }
 
 @media only screen and (max-width: 320px) {
@@ -426,5 +452,9 @@
 
     .periodic>p:nth-child(2) {
         font-size: 0.6rem;
+    }
+
+        .login-form>h2:first-child{
+        font-size: 1rem;
     }
 }
