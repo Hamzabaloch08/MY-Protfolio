@@ -15,13 +15,63 @@
     .prog-lang-imgs>img {
         width: 60px;
     }
+    
+    .projects-container>h1 {
+        font-size: 2.8rem;
+        margin-bottom: 100px;
+    }
+    
+    .project {
+        display: flex;
+        align-items: center;
+        padding: 0px 60px;
+        gap: 0px 80px;
+        padding-bottom: 50px;
+    }
+    
+    .proj-img {
+        width: 65%;
+    }
+    
+    .proj-img>a>img {
+        transform: scale(1) !important;
+    }
+    
+    .proj-info {
+        width: 70%;
+    }
+    
+    .proj-info>h2:first-child {
+        font-size: 2.5rem;
+    }
+    
+    .proj-info>p {
+        font-size: 0.9rem;
+    }
+    
+    .proj-img2 {
+        width: 40%;
+    }
+    
+    .proj-img2>a>img {
+        width: 100%;
+        height: 20rem;
+        object-fit: contain;
+    }
+    
+    .burgry>p:nth-child(2){
+        font-size: 1rem;
+    }
+    
+    .periodic>h2:first-child {
+        font-size: 1.8rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     .nav-item {
         transform: translateY(-0px) !important;
     }
-
 
     .first-section {
         display: flex;
@@ -80,6 +130,55 @@
         width: 75%;
         line-height: 1.1;
         font-size: 0.9rem;
+    }
+
+    .projects-container>h1 {
+        font-size: 2rem;
+        margin-bottom: 80px;
+    }
+    
+    .project {
+        padding: 0px 50px;
+        gap: 0px 30px;
+        padding-bottom: 50px;
+    }
+    
+    .proj-img {
+        width: 80%;
+    }
+    
+    .proj-info {
+        width: 60%;
+    }
+    
+    .proj-info>h2:first-child {
+        font-size: 2rem;
+    }
+    
+    .proj-info>p {
+        font-size: 0.7rem;
+    }
+    
+    .proj-img2 {
+        width: 30%;
+    }
+    
+    .proj-img2>a>img {
+        width: 100%;
+        height: 15rem;
+        object-fit: contain;
+    }
+    
+    .burgry>p:nth-child(2){
+        font-size: 0.75rem;
+    }
+    
+    .periodic>h2:first-child {
+        font-size: 0.9rem;
+    }
+
+    .periodic>p:nth-child(2){
+        font-size: 0.6rem;
     }
 
 }
@@ -149,6 +248,72 @@
     .about-me>span {
         width: 85%;
         font-size: 0.6rem;
+    }
+    
+    .projects-container>h1 {
+        font-size: 1.8rem;
+    }
+    
+    .project {
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 10px;
+        margin-bottom: 80px;
+        padding-bottom: 30px;
+    }
+    
+    .proj-img {
+        width: 70%;
+    }
+
+    .proj-img>a>img {
+        width: 100%;
+    }
+    
+    .proj-info {
+        text-align: center;
+        width: 90%;
+    }
+    
+    .proj-info>h2:first-child {
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+    
+    .proj-info>p {
+        font-size: 0.8rem;
+    }
+    
+    .project2 {
+        padding-bottom: 30px;
+        margin-top: -50px;
+    }
+    
+    .proj-img2 {
+        width: 100%;
+    }
+    
+    .proj-img2>a>img {
+        width: 100%;
+        height: 10rem;
+        object-fit: contain;
+    }
+    
+    .burgry>p:nth-child(2){
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    
+    .proj3{
+        margin-top: -50px;
+    }
+    
+    .periodic>h2:first-child {
+        font-size: 1.5rem;
+    }
+    
+    .periodic>p:nth-child(2) {
+        font-size: 0.8rem;
     }
 
 }

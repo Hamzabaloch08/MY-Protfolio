@@ -26,10 +26,10 @@ body {
 
 /* navbar */
 
-header {
+header{
     position: sticky;
-    top: 0;
-    transition: all 0.3s linear;
+    top: 0px;
+    z-index: 1;
 }
 
 nav {
@@ -163,7 +163,6 @@ nav>img:first-child:hover {
 
 /* skills section end */
 .projects-container {
-    padding: 100px 0px;
     background-image: linear-gradient(to top left, rgb(10, 0, 0), rgb(80, 10, 2), rgb(168, 8, 0), rgb(224, 11, 11), rgb(224, 11, 11), rgb(168, 8, 0), rgb(80, 10, 2), rgb(10, 0, 0));
 }
 
@@ -242,7 +241,7 @@ nav>img:first-child:hover {
     color: #ffba00;
 }
 
-.burgry>p:last-child{
+.burgry>p:nth-child(2){
     font-size: 1.2rem;
     text-align: justify;
 }
@@ -258,6 +257,6 @@ nav>img:first-child:hover {
     color: #fff;
 }
 
-.periodic>p:last-child {
+.periodic>p:nth-child(2) {
     font-size: 1.5rem;
 }
