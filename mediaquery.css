@@ -382,4 +382,28 @@
     .prog-lang-imgs {
         gap: 15px 25px;
     }
+
+    .proj-img {
+        width: 80%;
+    }
+    
+    .proj-info>h2:first-child {
+        font-size: 1.8rem;
+    }
+    
+    .proj-info>p {
+        font-size: 0.6rem;
+    }
+    
+    .burgry>p:nth-child(2){
+        font-size: 0.55rem;
+    }
+    
+    .periodic>h2:first-child {
+        font-size: 1rem;
+    }
+    
+    .periodic>p:nth-child(2) {
+        font-size: 0.6rem;
+    }
 }
