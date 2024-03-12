@@ -1,4 +1,9 @@
 @media only screen and (max-width: 1024px) {
+    nav {
+        border-bottom: 1px solid #e9e9e9;
+        backdrop-filter: blur(15px);
+    }
+
     .nav-item {
         transform: translateY(-0px) !important;
     }
@@ -15,12 +20,12 @@
     .prog-lang-imgs>img {
         width: 60px;
     }
-    
+
     .projects-container>h1 {
         font-size: 2.8rem;
         margin-bottom: 100px;
     }
-    
+
     .project {
         display: flex;
         align-items: center;
@@ -28,47 +33,52 @@
         gap: 0px 80px;
         padding-bottom: 50px;
     }
-    
+
     .proj-img {
         width: 65%;
     }
-    
+
     .proj-img>a>img {
         transform: scale(1) !important;
     }
-    
+
     .proj-info {
         width: 70%;
     }
-    
+
     .proj-info>h2:first-child {
         font-size: 2.5rem;
     }
-    
+
     .proj-info>p {
         font-size: 0.9rem;
     }
-    
+
     .proj-img2 {
         width: 40%;
     }
-    
+
     .proj-img2>a>img {
         width: 100%;
         height: 20rem;
         object-fit: contain;
     }
-    
-    .burgry>p:nth-child(2){
+
+    .burgry>p:nth-child(2) {
         font-size: 1rem;
     }
-    
+
     .periodic>h2:first-child {
         font-size: 1.8rem;
     }
 }
 
 @media only screen and (max-width: 768px) {
+    nav {
+        border-bottom: 1px solid #e9e9e9;
+        backdrop-filter: blur(15px);
+    }
+
     .nav-item {
         transform: translateY(-0px) !important;
     }
@@ -98,14 +108,14 @@
         width: 50%;
     }
 
-    .second-section{
+    .second-section {
         padding: 100px 0px;
     }
-    
+
     .skills>h1:first-child {
         font-size: 2.5rem;
     }
-    
+
     .prog-lang-imgs {
         display: grid;
         place-items: center;
@@ -113,19 +123,19 @@
         gap: 30px 60px;
         margin-top: 30px;
     }
-    
-    .prog-lang-imgs>img{
+
+    .prog-lang-imgs>img {
         width: 50px;
     }
-    
+
     .prog-lang-imgs>img:hover {
         transform: scale(1);
     }
-    
-    .about-me { 
+
+    .about-me {
         margin-top: 25px;
     }
-    
+
     .about-me>span {
         width: 75%;
         line-height: 1.1;
@@ -136,48 +146,48 @@
         font-size: 2rem;
         margin-bottom: 80px;
     }
-    
+
     .project {
         padding: 0px 50px;
         gap: 0px 30px;
         padding-bottom: 50px;
     }
-    
+
     .proj-img {
         width: 80%;
     }
-    
+
     .proj-info {
         width: 60%;
     }
-    
+
     .proj-info>h2:first-child {
         font-size: 2rem;
     }
-    
+
     .proj-info>p {
         font-size: 0.7rem;
     }
-    
+
     .proj-img2 {
         width: 30%;
     }
-    
+
     .proj-img2>a>img {
         width: 100%;
         height: 15rem;
         object-fit: contain;
     }
-    
-    .burgry>p:nth-child(2){
+
+    .burgry>p:nth-child(2) {
         font-size: 0.75rem;
     }
-    
+
     .periodic>h2:first-child {
         font-size: 0.9rem;
     }
 
-    .periodic>p:nth-child(2){
+    .periodic>p:nth-child(2) {
         font-size: 0.6rem;
     }
 
@@ -187,6 +197,8 @@
     nav {
         height: 4rem;
         padding: 0 0px;
+        border-bottom: 1px solid #e9e9e9;
+        backdrop-filter: blur(15px);
     }
 
     nav>img:first-child {
@@ -224,36 +236,36 @@
         width: 60%;
     }
 
-    .second-section{
+    .second-section {
         padding: 80px 0px;
     }
-    
+
     .skills>h1:first-child {
         font-size: 2rem;
     }
-    
+
     .prog-lang-imgs {
         gap: 20px 30px;
         margin-top: 15px;
     }
-    
-    .prog-lang-imgs>img{
+
+    .prog-lang-imgs>img {
         width: 40px;
     }
-    
-    .about-me { 
+
+    .about-me {
         margin-top: 20px;
     }
-    
+
     .about-me>span {
         width: 85%;
         font-size: 0.6rem;
     }
-    
+
     .projects-container>h1 {
         font-size: 1.8rem;
     }
-    
+
     .project {
         align-items: center;
         flex-direction: column;
@@ -261,7 +273,7 @@
         margin-bottom: 80px;
         padding-bottom: 30px;
     }
-    
+
     .proj-img {
         width: 70%;
     }
@@ -269,49 +281,49 @@
     .proj-img>a>img {
         width: 100%;
     }
-    
+
     .proj-info {
         text-align: center;
         width: 90%;
     }
-    
+
     .proj-info>h2:first-child {
         font-size: 2rem;
         margin-top: 30px;
     }
-    
+
     .proj-info>p {
         font-size: 0.8rem;
     }
-    
+
     .project2 {
         padding-bottom: 30px;
         margin-top: -50px;
     }
-    
+
     .proj-img2 {
         width: 100%;
     }
-    
+
     .proj-img2>a>img {
         width: 100%;
         height: 10rem;
         object-fit: contain;
     }
-    
-    .burgry>p:nth-child(2){
+
+    .burgry>p:nth-child(2) {
         font-size: 0.7rem;
         text-align: center;
     }
-    
-    .proj3{
+
+    .proj3 {
         margin-top: -50px;
     }
-    
+
     .periodic>h2:first-child {
         font-size: 1.5rem;
     }
-    
+
     .periodic>p:nth-child(2) {
         font-size: 0.8rem;
     }
@@ -319,6 +331,10 @@
 }
 
 @media only screen and (max-width: 375px) {
+    nav {
+        border-bottom: 1px solid #e9e9e9;
+        backdrop-filter: blur(15px);
+    }
 
     .nav-item {
         font-size: 10px;
@@ -346,7 +362,7 @@
         width: 55%;
     }
 
-    .second-section{
+    .second-section {
         margin-top: -110px;
     }
 
@@ -359,7 +375,7 @@
         margin-top: 20px;
     }
 
-    .prog-lang-imgs>img{
+    .prog-lang-imgs>img {
         width: 45px;
     }
 
@@ -367,14 +383,19 @@
         width: 90%;
         font-size: 0.5rem;
     }
-    
+
 }
 
 @media only screen and (max-width: 320px) {
+    nav {
+        border-bottom: 1px solid #e9e9e9;
+        backdrop-filter: blur(15px);
+    }
+
     .first-section {
         padding: 60px 0px;
     }
- 
+
     .skills>h1:first-child {
         font-size: 1.5rem;
     }
@@ -386,23 +407,23 @@
     .proj-img {
         width: 80%;
     }
-    
+
     .proj-info>h2:first-child {
         font-size: 1.8rem;
     }
-    
+
     .proj-info>p {
         font-size: 0.6rem;
     }
-    
-    .burgry>p:nth-child(2){
+
+    .burgry>p:nth-child(2) {
         font-size: 0.55rem;
     }
-    
+
     .periodic>h2:first-child {
         font-size: 1rem;
     }
-    
+
     .periodic>p:nth-child(2) {
         font-size: 0.6rem;
     }
