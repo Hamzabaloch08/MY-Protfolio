@@ -10,16 +10,16 @@
 }
 
 ::-webkit-scrollbar-track {
-    background-color: red;
+    background-color: rgb(0, 0, 0);
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #000;
+    background: linear-gradient(black, red, red, black);
     border-radius: 10px;
 }
 
 body {
-    background-image: linear-gradient(to top left, rgb(10, 0, 0), rgb(20, 0, 0), rgb(80, 10, 2), rgb(168, 8, 0), rgb(224, 11, 11), rgb(224, 11, 11), rgb(168, 8, 0), rgb(80, 10, 2), rgb(20, 0, 0), rgb(0, 0, 0));
+    background-color: #000;
     font-family: sans-serif;
     color: #fff;
 }
@@ -85,7 +85,6 @@ nav>img:first-child:hover {
     text-align: justify;
     padding-top: 120px;
     gap: 0px 100px;
-    background-image: linear-gradient(to top left, rgb(10, 0, 0), rgb(80, 10, 2), rgb(168, 8, 0), rgb(224, 11, 11), rgb(224, 11, 11), rgb(168, 8, 0), rgb(80, 10, 2), rgb(10, 0, 0));
 }
 
 .home {
@@ -121,7 +120,6 @@ nav>img:first-child:hover {
 
 .second-section {
     padding: 120px 0px;
-    background-image: linear-gradient(to top right, rgb(10, 0, 0), rgb(80, 10, 2), rgb(168, 8, 0), rgb(224, 11, 11), rgb(224, 11, 11), rgb(168, 8, 0), rgb(80, 10, 2), rgb(10, 0, 0));
 }
 
 .skills>h1:first-child {
@@ -162,9 +160,6 @@ nav>img:first-child:hover {
 }
 
 /* skills section end */
-.projects-container {
-    background-image: linear-gradient(to top left, rgb(10, 0, 0), rgb(80, 10, 2), rgb(168, 8, 0), rgb(224, 11, 11), rgb(224, 11, 11), rgb(168, 8, 0), rgb(80, 10, 2), rgb(10, 0, 0));
-}
 
 .projects-container>h1 {
     font-size: 3rem;
@@ -260,27 +255,27 @@ nav>img:first-child:hover {
     border-bottom: 1px white solid;
 }
 
-#img1{
+#img1 {
     object-fit: contain;
     height: 280px;
     width: 500px;
 }
 
-#img{
+#img {
     width: 90%;
     height: 250px;
     object-fit: contain;
 }
 
-.projs>a>img{
+.projs>a>img {
     transition: all 0.2s linear;
 }
 
-.projs>a>img:hover{
+.projs>a>img:hover {
     transform: scale(1.03);
 }
 
-.github-projs{
+.github-projs {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -288,22 +283,96 @@ nav>img:first-child:hover {
     margin: 80px;
 }
 
-.github-projs>a>img{
+.github-projs>a>img {
     cursor: pointer;
     transition: all 0.3s linear;
 }
 
-.github-projs>a>img:hover{
+.github-projs>a>img:hover {
     transform: scale(1.1);
 }
 
-.github-projs>a{
+.github-projs>a {
     text-decoration: none;
 }
 
-.github-projs>a>h1{
+.github-projs>a>h1 {
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: underline;
+}
+
+
+
+.button-icon {
+    display: flex;
+    border: 3px #fff solid;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    border-radius: 10px;
+    background-color: #22222b;
+    box-shadow: 0px 0px 5px #fff;
+}
+
+.icon {
+    background-color: #22222b;
+    padding: 12px 10px 10px 5px;
+    border-radius: 10px;
+}
+
+.icon svg {
+    width: 25px;
+    height: 25px;
+}
+
+.cube {
+    transition: all 0.3s;
+    transform-style: preserve-3d;
+    width: 200px;
+    height: 20px;
+}
+
+.button-icon:hover {
+    border-color: #22222b;
+    box-shadow: 0px 0px 30px #fff;
+}
+
+.button-icon:hover .cube {
+    transform: rotateX(90deg);
+}
+
+.side {
+    position: absolute;
+    height: 47px;
+    width: 200px;
+    display: flex;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.side2 {
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+.side2:hover {
+    font-size: 0.85rem;
+}
+
+.top {
+    background: #22222b;
+    color: #fff;
+    transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);
+}
+
+.front {
+    background: #222229;
+    color: #fff;
+    transform: translate3d(0, 0, 1em);
+    border-radius: 10px;
 }
