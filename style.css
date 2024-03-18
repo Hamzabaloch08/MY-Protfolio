@@ -98,6 +98,10 @@ nav>img:first-child:hover {
     cursor: pointer;
 }
 
+.home>h1>span{
+    color: #ff0000;
+}
+
 .home>p {
     margin-top: 10px;
     font-size: 1.7rem;
@@ -157,6 +161,12 @@ nav>img:first-child:hover {
     width: 75%;
     line-height: 1.5;
     letter-spacing: 1.5px;
+}
+
+#red{
+    color: #ff0000;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 /* skills section end */
